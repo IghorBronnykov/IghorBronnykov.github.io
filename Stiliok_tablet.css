@@ -1,0 +1,535 @@
+@media screen and (max-width: 800px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: 768px;
+    min-height: 100px;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    src: url(./Stilok/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+  }
+  @font-face {
+    font-family: "Roboto";
+    src: url(./Stilok/fonts/Roboto/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf);
+  }
+  .header {
+    background-image: url(./Stilok/imgSrc/ImageTablet/HeaderTab.png);
+    height: 700px;
+    color: #fff;
+    font-family: "Montserrat";
+  }
+  .header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .dream_left {
+    width: 152px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    position: relative;
+    left: 48px;
+    top: 46px;
+  }
+  .login {
+    display: block;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 564px;
+    top: 19px;
+  }
+  .log_in {
+    display: block;
+    width: 50px;
+    height: 36px;
+    line-height: 30px;
+  }
+  .log_up {
+    padding-top: 1px;
+    margin-left: 14px;
+    position: relative;
+    top: -3px;
+    line-height: 30px;
+    padding-left: 16px;
+    display: block;
+    width: 90px;
+    height: 36px;
+    border: 2px solid white;
+    border-radius: 40px;
+  }
+  .textShare {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 160px auto 200px auto;
+    width: 500px;
+  }
+  .textShare h2 {
+    font-weight: 700;
+    font-size: 52px;
+    text-align: center;
+  }
+  .textShare p {
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    font-family: "Roboto";
+  }
+  .textShare button {
+    color: #fff;
+    height: 40px;
+    width: 225px;
+    background: #FF4E50;
+    border: none;
+    border-radius: 40px;
+    margin-top: 33px;
+    letter-spacing: 1.6px;
+    padding-top: 2px;
+    padding-left: 2px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-container {
+    font-family: "Montserrat";
+    margin-top: 88px;
+    min-height: auto;
+    width: 748px;
+  }
+  .main-container h3 {
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #444444;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-container .steps {
+    height: 400px;
+    width: 748px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .step {
+    color: #FFFFFF;
+    padding: 100px 20px 2px 20px;
+    font-family: "Montserrat";
+    height: 100%;
+    width: 236px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%);
+    mix-blend-mode: normal;
+  }
+  .step_one {
+    background-image: url(./Stilok/imgSrc/ImageTablet/StepTab.png);
+  }
+  .step_one p {
+    position: relative;
+    top: 3px;
+    width: 196px;
+    height: 57px;
+  }
+  .step_dos {
+    background-image: url(./Stilok/imgSrc/ImageTablet/Step2Tab.png);
+  }
+  .step_dos p {
+    width: 196px;
+    height: 57px;
+    padding-top: 20px;
+  }
+  .step_dos span {
+    position: relative;
+  }
+  .step_tres {
+    background-image: url(./Stilok/imgSrc/ImageTablet/Step3Tab.png);
+  }
+  .step_tres p {
+    padding-top: 6px;
+  }
+  .step span {
+    position: relative;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 10px;
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+  }
+  .step h4 {
+    padding-top: 25px;
+    line-height: 14px;
+    margin-top: 20px;
+    width: 196px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .step p {
+    line-height: 14px;
+    margin-top: 20px;
+    height: 76px;
+    width: 196px;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: -0.8px;
+    color: #E3E3E3;
+  }
+  .step_dos h4 {
+    padding-top: 17px;
+    height: 29px;
+  }
+  .step_dos span {
+    top: 22px;
+  }
+  .meet {
+    width: 492px;
+    height: 605px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .meet h3 {
+    position: relative;
+    top: -5px;
+  }
+  .icons {
+    position: relative;
+    top: 1px;
+    padding-bottom: 13px;
+    width: 492px;
+    height: 464px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .icon {
+    height: 205px;
+    width: 236px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  .icon_right {
+    height: 224px;
+  }
+  .icon_brad {
+    order: -1;
+  }
+  .icon_brad h5 {
+    position: relative;
+    top: -2px;
+  }
+  .icon_right_diana {
+    position: relative;
+    order: -1;
+  }
+  .icon_marie {
+    top: 24px;
+  }
+  .icon_right_crist {
+    height: 205px;
+    top: 24px;
+    left: 2px;
+  }
+  .icon h5 {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .icon p {
+    line-height: 14px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+  }
+  .icon img {
+    height: 120px;
+    width: 120px;
+  }
+  .icon_brad p {
+    position: relative;
+    top: -1px;
+  }
+  .icon_right_diana p {
+    position: relative;
+    left: -0.5px;
+    top: 7px;
+    width: 236px;
+    height: 57px;
+  }
+  .meet button {
+    position: relative;
+    top: 5px;
+    height: 40px;
+    width: 180px;
+    background: #FFFFFF;
+    border: 2px solid #FF4E50;
+    border-radius: 40px;
+    color: #FF4E50;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    padding-left: 5px;
+    padding-top: 2px;
+  }
+  .ideas {
+    padding-top: 16px;
+    height: 1031px;
+  }
+  .ideas h3 {
+    position: relative;
+    top: -12px;
+  }
+  .gallery {
+    width: 748px;
+    margin-top: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .gallery .imag {
+    width: 236px;
+    height: 310px;
+    border-radius: 4px;
+    background-position: center;
+  }
+  .gallery .imag_sports {
+    background-image: url(./Stilok/imgSrc/ImageTablet/SportTab.png);
+  }
+  .gallery .imag_wellness {
+    background-image: url(./Stilok/imgSrc/ImageTablet/HealathTab.png);
+  }
+  .gallery .imag_extreme {
+    background-image: url(./Stilok/imgSrc/ImageTablet/ExtremeTab.png);
+  }
+  .gallery .imag_games {
+    margin-top: 20px;
+    background-image: url(./Stilok/imgSrc/ImageTablet/GamesTab.png);
+  }
+  .gallery .imag_big {
+    height: 310px;
+    width: 492px;
+  }
+  .gallery .imag_big_culture {
+    margin-top: 20px;
+    background-image: url(./Stilok/imgSrc/ImageTablet/CultureTab.png);
+  }
+  .gallery .imag_big_culturecopy {
+    margin-top: 20px;
+    background-image: url(./Stilok/imgSrc/ImageTablet/CultureCopyTab.png);
+  }
+  .gallery .imag_travel {
+    margin-top: 20px;
+    background-image: url(./Stilok/imgSrc/ImageTablet/GamesCopyTab.png);
+  }
+  .search-form {
+    position: relative;
+    top: 18px;
+    left: 1px;
+    width: 485px;
+    height: 162px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .search-form h3 {
+    position: relative;
+    top: -1px;
+    left: 1px;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #444444;
+  }
+  .search-form p {
+    position: relative;
+    top: -1px;
+    padding-top: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+    letter-spacing: -1px;
+  }
+  .search-form form {
+    position: relative;
+    top: -3px;
+  }
+  input {
+    margin-left: -3px;
+    margin-right: 3px;
+    width: 299px;
+    height: 40px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    border-radius: 3px;
+    border: 1px solid #D4D4D4;
+  }
+  .search button {
+    position: relative;
+    left: 2px;
+    font-family: "Montserrat";
+    width: 172.12px;
+    height: 40px;
+    background: #FF4E50;
+    border-radius: 40px;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 5px;
+    padding-top: 1px;
+  }
+  input::-moz-placeholder {
+    padding-left: 13px;
+    letter-spacing: 0.1px;
+    display: block;
+    position: relative;
+    top: 2px;
+  }
+  input::placeholder {
+    padding-left: 13px;
+    letter-spacing: 0.1px;
+    display: block;
+    position: relative;
+    top: 2px;
+  }
+  .footer {
+    margin-top: 115px;
+    width: 768px;
+    border-top: 2px solid #FF4E50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sections_main {
+    width: 768px;
+    height: 224px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .sections {
+    height: 186px;
+  }
+  .sections_areto {
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    color: #CCCCCC;
+  }
+  .sections_areto h4 {
+    position: relative;
+    right: 36px;
+    top: 1px;
+  }
+  .sections img {
+    position: relative;
+    right: 38px;
+    margin-top: 7px;
+    width: 110px;
+    height: 24px;
+  }
+  .sections_dreamshare {
+    width: 150px;
+  }
+  .sections_dreamshare p {
+    position: relative;
+    left: 42px;
+    margin: -2px 0px 0px -2px;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: #FF4E50;
+  }
+  .sections_partners {
+    width: 350px;
+  }
+  .sections_partners h5 {
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .sections_company {
+    width: 330px;
+    padding-left: 60px;
+  }
+  .sections_company h5 {
+    margin-left: 90px;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .sections_company .list {
+    position: relative;
+    left: 90px;
+    top: 14px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 148px;
+    width: 114px;
+  }
+  .sections_company .list a {
+    color: #999999;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=Stiliok_tablet.css.map */
